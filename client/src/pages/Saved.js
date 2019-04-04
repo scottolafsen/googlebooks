@@ -49,7 +49,7 @@ class Saved extends Component {
                   {this.state.savedBooks.map(book => {
                     return (
                       <SavedBookItem
-                        key={book.id}
+                        key={book._id}
                         title={book.title}
                         authors={book.authors}
                         href={book.href}

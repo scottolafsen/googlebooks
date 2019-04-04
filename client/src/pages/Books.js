@@ -11,7 +11,8 @@ import { BookList, BookListItem } from "../components/BookItem";
 class Books extends Component {
   state = {
     books: [],
-    query: ""
+    query: "",
+    
   };
 
   handleInputChange = event => {
@@ -84,7 +85,7 @@ class Books extends Component {
         </Row>
         <Row>
           <Col size="xs-12">
-            {!this.state.books.length ? (
+            { this.state.books === [] ? (
               <h1 className="text-center">No Books to Display</h1>
             ) : (
                 <BookList>

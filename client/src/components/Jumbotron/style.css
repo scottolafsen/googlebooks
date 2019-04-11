@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url("./images/beach.jpg");
+  height: 120%; 
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}

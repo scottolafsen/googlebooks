@@ -41,7 +41,7 @@ class Saved extends Component {
           </Col>
         </Row>
         <Row>
-            <Col size="xs-12">
+            <Col size="md-12">
               {!this.state.savedBooks.length ? (
                 <h1 className="text-center">No Books to Display</h1>
               ) : (
